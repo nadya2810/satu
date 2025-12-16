@@ -1,0 +1,40 @@
+body {
+background: #f7f5f2;
+font-family: 'Segoe UI', sans-serif;
+}
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.card {
+background: white;
+padding: 40px;
+border-radius: 12px;
+text-align: center;
+box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+input {
+display: block;
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+}
+button, a {
+background: #111;
+color: white;
+padding: 10px 20px;
+border-radius: 8px;
+text-decoration: none;
+margin: 5px;
+display: inline-block;
+}
+.nav a {
+margin: 0 5px;
+}
+.small {
+font-size: 12px;
+background: transparent;
+color: #555;
+}
